@@ -9,7 +9,6 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
-@Data
 public abstract class TransactionCSVReader {
     public static List<Transaction> readTransactions(String filePath) {
         List<Transaction> transactions = new ArrayList<>();
